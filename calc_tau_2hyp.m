@@ -3,7 +3,7 @@ clear
 fc = 3e9; % Несущая частота
 band = 25e6; % Полоса сигнала
 path_recs = 'records_6_ok\'; % папка с записями
-Records = 100; % Количество записей
+Records = 10; % Количество записей
 path_json = [path_recs(1:end-1) '_json\'];
 if ~mkdir(path_json)
     error('Path for json does not exist');
